@@ -1,0 +1,23 @@
+html{
+	background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+h1{
+	color:#fffff0;
+}
+
+p{
+	font-size:25px;
+	color:#ffff00;
+}
+
+a{
+	font-size:25px;
+	background:#000000;
+	color:#ffffff;
+}
+
+a:hover{
+	background:#ffffff;
+	color:#000000;
+}

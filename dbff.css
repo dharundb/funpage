@@ -1,0 +1,14 @@
+html{
+	background: url(naughty.jpg) no-repeat center center fixed;
+}
+
+header>p{
+	font-weight:bold;
+	font-size:50px;
+	transition: 2s ease;
+}
+
+body>p{
+	font-weight:bold;
+	transform: translate(1000px,450px);
+}

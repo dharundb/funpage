@@ -1,0 +1,12 @@
+html{
+	background: url(tl.jpeg) no-repeat center center fixed;
+}
+
+header>p{
+	font-size:23px;
+}
+	
+body>p{
+	font-weight:bold;
+	transform: translate(1000px,500px);
+}

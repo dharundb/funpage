@@ -1,0 +1,84 @@
+html{
+	background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+p{
+	font-size:20px;
+	font-weight:bold;
+	color:#ffffe0;
+}
+
+.animate{
+	transition: 2s ease;
+	color:#000080;
+	line-height:100px;
+	width:100px;
+	height:100px;
+	margin:4% 0% 0% 45%;
+	background:#ffd700;
+	text-align:center;
+	transition-property:background,width,height,border-radius,transform,opacity;
+}
+
+.animate:hover{
+	transform:rotate(360deg);
+	background:#ffffff;
+	border-radius:50%;
+}
+
+.animation{
+	transition: 2s ease;
+	color:#000080;
+	line-height:100px;
+	width:100px;
+	height:100px;
+	margin:4% 0% 0% 45%;
+	background:#ffd700;
+	text-align:center;
+}
+
+.animation:hover{
+	transform: skew(170deg,170deg);
+	background:#ffffff;
+}
+
+.anime{
+	transition: 2s ease;
+	color:#000080;
+	line-height:100px;
+	width:100px;
+	height:100px;
+	margin:4% 0% 0% 45%;
+	background:#ffd700;
+	text-align:center;
+}
+
+.anime{
+  transition: 2s ease;
+  color:#000080;
+  margin:4% 0% 0% 45%;
+  line-height:100px;
+  width:100px;
+  height:100px;
+  display: inline-block;
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  font-size: 20px;
+  animation: skew 3s infinite;
+  transform: skew(20deg);
+  animation-direction: alternate;
+  opacity: .7;
+}
+@keyframes skew {
+  0% {
+    transform: skew(20deg, 20deg);
+  }
+  100% {
+    transform: skew(-20deg, -20deg);
+  }
+}
+
+
+
+
+
+
